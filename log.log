@@ -1,0 +1,40 @@
+2017-12-28 09:22:34.180 INFO  o.s.c.a.AnnotationConfigApplicationContext [T=,P=,S=] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7c2a69b4: startup date [Thu Dec 28 09:22:34 CST 2017]; root of context hierarchy
+2017-12-28 09:22:34.246 INFO  o.h.v.i.u.Version [T=,P=,S=] - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-28 09:22:34.541 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [T=,P=,S=] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$261cfa5c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-28 09:22:34.944 INFO  c.e.d.a.AserviceApplication [T=,P=,S=] - No active profile set, falling back to default profiles: default
+2017-12-28 09:22:34.958 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [T=,P=,S=] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@75de29c0: startup date [Thu Dec 28 09:22:34 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7c2a69b4
+2017-12-28 09:22:35.955 INFO  o.s.c.c.s.GenericScope [T=,P=,S=] - BeanFactory id=55b58e8f-2b2a-302c-ae31-3cfc09282d10
+2017-12-28 09:22:36.303 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [T=,P=,S=] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$261cfa5c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-28 09:22:37.024 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer [T=,P=,S=] - Tomcat initialized with port(s): 8080 (http)
+2017-12-28 09:22:37.072 INFO  o.a.c.c.StandardService [T=,P=,S=] - Starting service [Tomcat]
+2017-12-28 09:22:37.077 INFO  o.a.c.c.StandardEngine [T=,P=,S=] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-28 09:22:37.163 INFO  o.a.c.c.C.[.[.[/] [T=,P=,S=] - Initializing Spring embedded WebApplicationContext
+2017-12-28 09:22:37.164 INFO  o.s.w.c.ContextLoader [T=,P=,S=] - Root WebApplicationContext: initialization completed in 2206 ms
+2017-12-28 09:22:37.536 INFO  o.s.b.w.s.ServletRegistrationBean [T=,P=,S=] - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-28 09:22:37.545 INFO  o.s.b.w.s.FilterRegistrationBean [T=,P=,S=] - Mapping filter: 'metricsFilter' to: [/*]
+2017-12-28 09:22:37.545 INFO  o.s.b.w.s.FilterRegistrationBean [T=,P=,S=] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-28 09:22:37.546 INFO  o.s.b.w.s.FilterRegistrationBean [T=,P=,S=] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-28 09:22:37.546 INFO  o.s.b.w.s.FilterRegistrationBean [T=,P=,S=] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-28 09:22:37.547 INFO  o.s.b.w.s.FilterRegistrationBean [T=,P=,S=] - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-28 09:22:37.547 INFO  o.s.b.w.s.FilterRegistrationBean [T=,P=,S=] - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-12-28 09:22:37.547 INFO  o.s.b.w.s.FilterRegistrationBean [T=,P=,S=] - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-12-28 09:26:00.643 INFO  o.s.c.a.AnnotationConfigApplicationContext [T=,P=,S=] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3b152928: startup date [Thu Dec 28 09:26:00 CST 2017]; root of context hierarchy
+2017-12-28 09:26:00.767 INFO  o.h.v.i.u.Version [T=,P=,S=] - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-28 09:26:01.379 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [T=,P=,S=] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8f022741] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-28 09:26:01.893 INFO  c.e.d.a.AserviceApplication [T=,P=,S=] - No active profile set, falling back to default profiles: default
+2017-12-28 09:26:01.915 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [T=,P=,S=] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a098d76: startup date [Thu Dec 28 09:26:01 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3b152928
+2017-12-28 09:26:03.613 INFO  o.s.c.c.s.GenericScope [T=,P=,S=] - BeanFactory id=55b58e8f-2b2a-302c-ae31-3cfc09282d10
+2017-12-28 09:26:03.702 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [T=,P=,S=] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8f022741] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-28 09:26:04.313 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer [T=,P=,S=] - Tomcat initialized with port(s): 8080 (http)
+2017-12-28 09:26:04.332 INFO  o.a.c.c.StandardService [T=,P=,S=] - Starting service [Tomcat]
+2017-12-28 09:26:04.334 INFO  o.a.c.c.StandardEngine [T=,P=,S=] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-28 09:26:04.793 INFO  o.a.c.c.C.[.[.[/] [T=,P=,S=] - Initializing Spring embedded WebApplicationContext
+2017-12-28 09:26:04.794 INFO  o.s.w.c.ContextLoader [T=,P=,S=] - Root WebApplicationContext: initialization completed in 2879 ms
+2017-12-28 09:26:05.074 INFO  o.s.b.w.s.ServletRegistrationBean [T=,P=,S=] - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-28 09:26:05.083 INFO  o.s.b.w.s.FilterRegistrationBean [T=,P=,S=] - Mapping filter: 'metricsFilter' to: [/*]
+2017-12-28 09:26:05.084 INFO  o.s.b.w.s.FilterRegistrationBean [T=,P=,S=] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-28 09:26:05.084 INFO  o.s.b.w.s.FilterRegistrationBean [T=,P=,S=] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-28 09:26:05.084 INFO  o.s.b.w.s.FilterRegistrationBean [T=,P=,S=] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-28 09:26:05.084 INFO  o.s.b.w.s.FilterRegistrationBean [T=,P=,S=] - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-28 09:26:05.084 INFO  o.s.b.w.s.FilterRegistrationBean [T=,P=,S=] - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-12-28 09:26:05.084 INFO  o.s.b.w.s.FilterRegistrationBean [T=,P=,S=] - Mapping filter: 'applicationContextIdFilter' to: [/*]
