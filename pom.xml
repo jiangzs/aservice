@@ -5,7 +5,7 @@
 
     <groupId>com.example.demo</groupId>
     <artifactId>aservice</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
 
     <name>aservice</name>
@@ -82,11 +82,23 @@
             <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
-                <version>0.4.10</version>
+                <version>1.0.0</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>javax.activation</groupId>
+                        <artifactId>activation</artifactId>
+                        <version>1.1.1</version>
+                    </dependency>
+                </dependencies>
                 <configuration>
+                    <dockerHost>https://192.168.99.100:2376</dockerHost>
+                    <dockerCertPath>/Users/jiangzhengshui/.minikube/certs</dockerCertPath>
                     <imageName>${project.artifactId}</imageName>
                     <baseImage>openjdk:8-jre-alpine</baseImage>
                     <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
+                    <imageTags>
+                        <imageTag>${project.version}</imageTag>
+                    </imageTags>
                     <!-- copy the service's jar file from target into the root directory of the image -->
                     <resources>
                         <resource>
@@ -95,6 +107,7 @@
                             <include>${project.build.finalName}.jar</include>
                         </resource>
                     </resources>
+
                 </configuration>
                 <executions>
                     <execution>

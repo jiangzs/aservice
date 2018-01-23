@@ -1,4 +1,4 @@
-package com.example.demo.aservice;
+package com.example.demo.bservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

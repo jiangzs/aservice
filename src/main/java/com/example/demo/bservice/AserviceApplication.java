@@ -1,13 +1,11 @@
-package com.example.demo.aservice;
+package com.example.demo.bservice;
 
-import io.fabric8.kubernetes.client.KubernetesClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.kubernetes.discovery.KubernetesDiscoveryClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -32,7 +30,15 @@ class ServiceInstanceRestController {
     @RequestMapping("/service-instances/{applicationName}")
     public List<ServiceInstance> serviceInstancesByApplicationName(
             @PathVariable String applicationName) {
-        KubernetesClient client= ((KubernetesDiscoveryClient)discoveryClient).getClient();
+//        KubernetesClient client= ((KubernetesDiscoveryClient)discoveryClient).getClient();
         return this.discoveryClient.getInstances(applicationName);
+    }
+
+    @RequestMapping("/")
+    public String home() {
+//        KubernetesClient client= ((KubernetesDiscoveryClient)discoveryClient).getClient();
+        StringBuffer sb = new StringBuffer();
+        this.discoveryClient.getServices().stream().forEach(s -> sb.append(s.toString()).append(","));
+        return sb.toString();
     }
 }
